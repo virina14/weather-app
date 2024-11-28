@@ -1,0 +1,94 @@
+body {
+    overflow-y: scroll;
+    font-family: Arial, sans-serif;
+    background-image: url('images/background.png');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    margin: 0; 
+    padding: 200px;
+}
+
+.weather-app {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px; 
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input[type="number"] {
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px;
+    background-color: #355FCA;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #355FCA;
+}
+
+.weather-info {
+    margin-top: 20px;
+}
+
+.weather-info h3 {
+    text-align: center;
+}
+
+.weather-info div {
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.container {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.weather-widget {
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin: 10px 0;
+    text-align: center;
+}
+
+.weather-widget img {
+    width: 50px;
+    height: 50px;
+}
+
+button {
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+#map {
+    display: none;
+    height: 400px;
+    width: 100%;
+}
+
