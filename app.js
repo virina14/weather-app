@@ -68,7 +68,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
         weatherInfo.style.display = 'none'; // Скрываем информацию о погоде
 
-        const apiKey = 'c0c2d7e025704eb3ba14fddc85fdfd88';
+        const apiKey = '7b85031e5a4ce658b9854647cb1f5805';
         const apiUrl = `https://api.openweathermap.org/data/2.5/weather?lat=${latValue}&lon=${lonValue}&appid=${apiKey}&units=metric&lang=ru`;
 
         try {

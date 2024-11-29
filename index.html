@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Погода</title>
+    <title>WeatherSeek</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
     <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
@@ -21,11 +21,12 @@
         </div>
 
         <div class="weather-info" id="weatherInfo" style="display: none;">
-        <h3>Информация о погоде:</h3>
-        <div id="weatherDetails"></div>
-        <img id="weatherIcon" alt="Иконка погоды" style="width: 100px; height: 100px; margin-top: 10px;">
-    </div>    
+            <h3>Информация о погоде:</h3>
+            <div id="weatherDetails"></div>            
+        </div>
 
+        <div id="map" style="height: 300px; width: 100%; margin-top: 20px;"></div>
+    </div>
     <script src="app.js"></script>
 </body>
 </html>
